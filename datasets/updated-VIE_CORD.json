@@ -1,0 +1,5995 @@
+[
+    {
+        "image_path": "archive/images/CORD/receipt_00000.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00000.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"identification # of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "901016",
+                "box_data": {
+                    "box": [
+                        42,
+                        392,
+                        92,
+                        412
+                    ],
+                    "text": "901016",
+                    "label": "menu.num",
+                    "words": [
+                        {
+                            "box": [
+                                42,
+                                392,
+                                92,
+                                412
+                            ],
+                            "text": "901016"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00000.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00000.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "-TICKET CP",
+                "box_data": {
+                    "box": [
+                        146,
+                        386,
+                        222,
+                        406
+                    ],
+                    "text": "-TICKET CP",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                146,
+                                386,
+                                200,
+                                406
+                            ],
+                            "text": "-TICKET"
+                        },
+                        {
+                            "box": [
+                                202,
+                                386,
+                                222,
+                                406
+                            ],
+                            "text": "CP"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00000.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00000.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "2",
+                "box_data": {
+                    "box": [
+                        90,
+                        416,
+                        100,
+                        434
+                    ],
+                    "text": "2",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                90,
+                                416,
+                                100,
+                                434
+                            ],
+                            "text": "2"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00000.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00000.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "60.000",
+                "box_data": {
+                    "box": [
+                         174,
+                         410,
+                         224,
+                         430
+                    ],
+                    "text": "60.000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                174,
+                                410,
+                                224,
+                                430
+                            ],
+                            "text": "60.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00000.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00000.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"discount price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "-60.000",
+                "box_data": {
+                    "box": [
+                        297,
+                        457,
+                        354,
+                        481
+                    ],
+                    "text": "-60.000",
+                    "label": "total.discount_price",
+                    "words": [
+                        {
+                            "box": [
+                                297,
+                                457,
+                                354,
+                                481
+                            ],
+                            "text": "-60.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00002.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00002.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        168,
+                        652,
+                        178,
+                        672
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                168,
+                                652,
+                                178,
+                                672
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00002.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00002.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "JASMINE MT ( L )",
+                "box_data": {
+                    "box": [
+                        216,
+                        648,
+                        414,
+                        674
+                    ],
+                    "text": "JASMINE MT ( L )",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                216,
+                                648,
+                                298,
+                                674
+                            ],
+                            "text": "JASMINE"
+                        },
+                        {
+                            "box": [
+                                306,
+                                648,
+                                334,
+                                674
+                            ],
+                            "text": "MT"
+                        },
+                        {
+                            "box": [
+                                356,
+                                648,
+                                392,
+                                672
+                            ],
+                            "text": "( L"
+                        },
+                        {
+                            "box": [
+                                402,
+                                652,
+                                414,
+                                672
+                            ],
+                            "text": ")"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00002.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00002.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "24,000",
+                "box_data": {
+                    "box": [
+                        672,
+                        652,
+                        746,
+                        678
+                    ],
+                    "text": "24,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                672,
+                                652,
+                                746,
+                                678
+                            ],
+                            "text": "24,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00002.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00002.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "COCONUT JELLY ( L )",
+                "box_data": {
+                    "box": [
+                        208,
+                        682,
+                        440,
+                        710
+                    ],
+                    "text": "COCONUT JELLY ( L )",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                208,
+                                684,
+                                298,
+                                710
+                            ],
+                            "text": "COCONUT"
+                        },
+                        {
+                            "box": [
+                                308,
+                                682,
+                                370,
+                                710
+                            ],
+                            "text": "JELLY"
+                        },
+                        {
+                            "box": [
+                                380,
+                                684,
+                                418,
+                                710
+                            ],
+                            "text": "( L"
+                        },
+                        {
+                            "box": [
+                                428,
+                                688,
+                                440,
+                                706
+                            ],
+                            "text": ")"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00002.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00002.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "4,000",
+                "box_data": {
+                    "box": [
+                        686,
+                        690,
+                        748,
+                        716
+                    ],
+                    "text": "4,000",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                686,
+                                690,
+                                748,
+                                716
+                            ],
+                            "text": "4,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00003.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00003.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1X",
+                "box_data": {
+                    "box": [
+                        148,
+                        666,
+                        182,
+                        700
+                    ],
+                    "text": "1X",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                148,
+                                666,
+                                182,
+                                700
+                            ],
+                            "text": "1X"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00003.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00003.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "@11000",
+                "box_data": {
+                    "box": [
+                        388,
+                        646,
+                        493,
+                        689
+                    ],
+                    "text": "@11000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                388,
+                                646,
+                                493,
+                                689
+                            ],
+                            "text": "@11000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00003.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00003.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "DONAT GULA",
+                "box_data": {
+                    "box": [
+                        148,
+                        698,
+                        314,
+                        738
+                    ],
+                    "text": "DONAT GULA",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                148,
+                                702,
+                                232,
+                                738
+                            ],
+                            "text": "DONAT"
+                        },
+                        {
+                            "box": [
+                                244,
+                                698,
+                                314,
+                                734
+                            ],
+                            "text": "GULA"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00003.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00003.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "11,000",
+                "box_data": {
+                    "box": [
+                        577,
+                        680,
+                        677,
+                        715
+                    ],
+                    "text": "11,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                577,
+                                680,
+                                677,
+                                715
+                            ],
+                            "text": "11,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00003.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00003.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1.00xITEMs",
+                "box_data": {
+                    "box": [
+                        330,
+                        726,
+                        497,
+                        773
+                    ],
+                    "text": "1.00xITEMs",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                330,
+                                726,
+                                497,
+                                773
+                            ],
+                            "text": "1.00xITEMs"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00005.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00005.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "TRAD KY TOAST CARTE",
+                "box_data": {
+                    "box": [
+                        691,
+                        1856,
+                        1335,
+                        1928
+                    ],
+                    "text": "TRAD KY TOAST CARTE",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                691,
+                                1856,
+                                836,
+                                1924
+                            ],
+                            "text": "TRAD"
+                        },
+                        {
+                            "box": [
+                                857,
+                                1856,
+                                934,
+                                1924
+                            ],
+                            "text": "KY"
+                        },
+                        {
+                            "box": [
+                                955,
+                                1860,
+                                1134,
+                                1928
+                            ],
+                            "text": "TOAST"
+                        },
+                        {
+                            "box": [
+                                1156,
+                                1864,
+                                1335,
+                                1928
+                            ],
+                            "text": "CARTE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00005.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00005.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "28.182",
+                "box_data": {
+                    "box": [
+                        1625,
+                        1864,
+                        1843,
+                        1932
+                    ],
+                    "text": "28.182",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                1625,
+                                1864,
+                                1843,
+                                1932
+                            ],
+                            "text": "28.182"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00007.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00007.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Kupon 15",
+                "box_data": {
+                    "box": [
+                        68,
+                        522,
+                        156,
+                        553
+                    ],
+                    "text": "Kupon 15",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                68,
+                                522,
+                                129,
+                                553
+                            ],
+                            "text": "Kupon"
+                        },
+                        {
+                            "box": [
+                                132,
+                                526,
+                                156,
+                                550
+                            ],
+                            "text": "15"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00007.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00007.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "100,000",
+                "box_data": {
+                    "box": [
+                        420,
+                        534,
+                        498,
+                        560
+                    ],
+                    "text": "100,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                420,
+                                534,
+                                498,
+                                560
+                            ],
+                            "text": "100,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00007.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00007.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "ADD CHICKEN BOX",
+                "box_data": {
+                    "box": [
+                        68,
+                        551,
+                        226,
+                        582
+                    ],
+                    "text": "ADD CHICKEN BOX",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                68,
+                                551,
+                                109,
+                                578
+                            ],
+                            "text": "ADD"
+                        },
+                        {
+                            "box": [
+                                110,
+                                552,
+                                185,
+                                581
+                            ],
+                            "text": "CHICKEN"
+                        },
+                        {
+                            "box": [
+                                188,
+                                558,
+                                226,
+                                582
+                            ],
+                            "text": "BOX"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00007.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00007.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "909",
+                "box_data": {
+                    "box": [
+                        462,
+                        564,
+                        500,
+                        588
+                    ],
+                    "text": "909",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                462,
+                                564,
+                                500,
+                                588
+                            ],
+                            "text": "909"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00008.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00008.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        52,
+                        596,
+                        72,
+                        630
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                52,
+                                596,
+                                72,
+                                630
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00008.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00008.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "[REG] BLACK SAKURA",
+                "box_data": {
+                    "box": [
+                        84,
+                        596,
+                        480,
+                        636
+                    ],
+                    "text": "[REG] BLACK SAKURA",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                84,
+                                596,
+                                192,
+                                636
+                            ],
+                            "text": "[REG]"
+                        },
+                        {
+                            "box": [
+                                202,
+                                598,
+                                326,
+                                634
+                            ],
+                            "text": "BLACK"
+                        },
+                        {
+                            "box": [
+                                332,
+                                598,
+                                480,
+                                634
+                            ],
+                            "text": "SAKURA"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00008.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00008.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "45,455",
+                "box_data": {
+                    "box": [
+                        716,
+                        588,
+                        843,
+                        632
+                    ],
+                    "text": "45,455",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                716,
+                                588,
+                                843,
+                                632
+                            ],
+                            "text": "45,455"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00009.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00009.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"discounted price in total\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "36000",
+                "box_data": {
+                    "box": [
+                        264,
+                        424,
+                        328,
+                        446
+                    ],
+                    "text": "36000",
+                    "label": "sub_total.subtotal_price",
+                    "words": [
+                        {
+                            "box": [
+                                264,
+                                424,
+                                328,
+                                446
+                            ],
+                            "text": "36000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00009.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00009.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Bumbu Kaldu Ayam 1",
+                "box_data": {
+                    "box": [
+                        31,
+                        318,
+                        238,
+                        351
+                    ],
+                    "text": "Bumbu Kaldu Ayam 1",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                31,
+                                318,
+                                238,
+                                351
+                            ],
+                            "text": "Bumbu Kaldu Ayam 1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00009.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00009.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "36000",
+                "box_data": {
+                    "box": [
+                        33,
+                        349,
+                        96,
+                        368
+                    ],
+                    "text": "36000",
+                    "label": "sub_total.subtotal_price",
+                    "words": [
+                        {
+                            "box": [
+                                33,
+                                349,
+                                96,
+                                368
+                            ],
+                            "text": "36000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00009.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00009.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "36000",
+                "box_data": {
+                    "box": [
+                        265,
+                        335,
+                        328,
+                        358
+                    ],
+                    "text": "36000",
+                    "label": "sub_total.subtotal_price",
+                    "words": [
+                        {
+                            "box": [
+                                265,
+                                335,
+                                328,
+                                358
+                            ],
+                            "text": "36000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00010.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00010.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "CINNAMON SUGAR",
+                "box_data": {
+                    "box": [
+                        45,
+                        424,
+                        250,
+                        452
+                    ],
+                    "text": "CINNAMON SUGAR",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                45,
+                                424,
+                                250,
+                                452
+                            ],
+                            "text": "CINNAMON SUGAR"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00010.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00010.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "17,000",
+                "box_data": {
+                    "box": [
+                        126,
+                        460,
+                        198,
+                        484
+                    ],
+                    "text": "17,000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                126,
+                                460,
+                                198,
+                                484
+                            ],
+                            "text": "17,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00010.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00010.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "17,000",
+                "box_data": {
+                    "box": [
+                        451,
+                        464,
+                        526,
+                        490
+                    ],
+                    "text": "17,000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                450,
+                                464,
+                                526,
+                                490
+                            ],
+                            "text": "17,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00011.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00011.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        116,
+                        390,
+                        126,
+                        406
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                116,
+                                390,
+                                126,
+                                406
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00011.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00011.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "BANABERRY FRESH CREAM CAK",
+                "box_data": {
+                    "box": [
+                        127,
+                        376,
+                        332,
+                        406
+                    ],
+                    "text": "BANABERRY FRESH CREAM CAK",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                127,
+                                381,
+                                206,
+                                406
+                            ],
+                            "text": "BANABERRY"
+                        },
+                        {
+                            "box": [
+                                208,
+                                380,
+                                254,
+                                400
+                            ],
+                            "text": "FRESH"
+                        },
+                        {
+                            "box": [
+                                254,
+                                378,
+                                300,
+                                398
+                            ],
+                            "text": "CREAM"
+                        },
+                        {
+                            "box": [
+                                302,
+                                376,
+                                332,
+                                396
+                            ],
+                            "text": "CAK"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00011.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00011.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "230,000",
+                "box_data": {
+                    "box": [
+                        342,
+                        375,
+                        401,
+                        393
+                    ],
+                    "text": "230,000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                342,
+                                375,
+                                401,
+                                393
+                            ],
+                            "text": "230,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00018.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00018.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Propolis Cair",
+                "box_data": {
+                    "box": [
+                        20,
+                        322,
+                        154,
+                        346
+                    ],
+                    "text": "Propolis Cair",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                20,
+                                322,
+                                154,
+                                346
+                            ],
+                            "text": "Propolis Cair"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00018.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00018.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        154,
+                        324,
+                        168,
+                        344
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                154,
+                                324,
+                                168,
+                                344
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00018.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00018.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "156000",
+                "box_data": {
+                    "box": [
+                        22,
+                        348,
+                        100,
+                        372
+                    ],
+                    "text": "156000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                22,
+                                348,
+                                100,
+                                372
+                            ],
+                            "text": "156000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00018.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00018.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "156000",
+                "box_data": {
+                    "box": [
+                        254,
+                        334,
+                        330,
+                        358
+                    ],
+                    "text": "156000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                254,
+                                334,
+                                330,
+                                358
+                            ],
+                            "text": "156000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00030.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00030.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Kupon 3",
+                "box_data": {
+                    "box": [
+                        134,
+                        864,
+                        234,
+                        896
+                    ],
+                    "text": "Kupon 3",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                134,
+                                864,
+                                206,
+                                896
+                            ],
+                            "text": "Kupon"
+                        },
+                        {
+                            "box": [
+                                214,
+                                864,
+                                234,
+                                894
+                            ],
+                            "text": "3"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00030.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00030.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "28,636",
+                "box_data": {
+                    "box": [
+                        614,
+                        864,
+                        700,
+                        898
+                    ],
+                    "text": "28,636",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                614,
+                                864,
+                                700,
+                                898
+                            ],
+                            "text": "28,636"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00032.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00032.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "THAI ICED GREEN TEA",
+                "box_data": {
+                    "box": [
+                        355,
+                        1530,
+                        907,
+                        1613
+                    ],
+                    "text": "THAI ICED GREEN TEA",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                355,
+                                1530,
+                                488,
+                                1601
+                            ],
+                            "text": "THAI"
+                        },
+                        {
+                            "box": [
+                                501,
+                                1535,
+                                630,
+                                1603
+                            ],
+                            "text": "ICED"
+                        },
+                        {
+                            "box": [
+                                643,
+                                1540,
+                                801,
+                                1613
+                            ],
+                            "text": "GREEN"
+                        },
+                        {
+                            "box": [
+                                816,
+                                1550,
+                                907,
+                                1611
+                            ],
+                            "text": "TEA"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00032.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00032.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        387,
+                        1608,
+                        421,
+                        1666
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                387,
+                                1608,
+                                421,
+                                1666
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00032.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00032.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "@24.000",
+                "box_data": {
+                    "box": [
+                        530,
+                        1611,
+                        741,
+                        1676
+                    ],
+                    "text": "@24.000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                530,
+                                1611,
+                                741,
+                                1676
+                            ],
+                            "text": "@24.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00032.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00032.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "24.000",
+                "box_data": {
+                    "box": [
+                        1360,
+                        1620,
+                        1554,
+                        1690
+                    ],
+                    "text": "24.000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                1360,
+                                1620,
+                                1554,
+                                1690
+                            ],
+                            "text": "24.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        605,
+                        2299,
+                        661,
+                        2402
+                    ],
+                    "text": "1",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                605,
+                                2299,
+                                661,
+                                2402
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "XXL Crispy Chicken",
+                "box_data": {
+                    "box": [
+                        392,
+                        1959,
+                        1399,
+                        2089
+                    ],
+                    "text": "XXL Crispy Chicken",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                392,
+                                1966,
+                                644,
+                                2069
+                            ],
+                            "text": "XXL"
+                        },
+                        {
+                            "box": [
+                                661,
+                                1959,
+                                995,
+                                2089
+                            ],
+                            "text": "Crispy"
+                        },
+                        {
+                            "box": [
+                                1015,
+                                1966,
+                                1399,
+                                2065
+                            ],
+                            "text": "Chicken"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "40,000",
+                "box_data": {
+                    "box": [
+                        1815,
+                        1952,
+                        2207,
+                        2074
+                    ],
+                    "text": "40,000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                1815,
+                                1952,
+                                2207,
+                                2074
+                            ],
+                            "text": "40,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        605,
+                        2299,
+                        661,
+                        2402
+                    ],
+                    "text": "1",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                605,
+                                2299,
+                                661,
+                                2402
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "- Sedang",
+                "box_data": {
+                    "box": [
+                        403,
+                        2075,
+                        882,
+                        2207
+                    ],
+                    "text": "- Sedang",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                403,
+                                2075,
+                                882,
+                                2207
+                            ],
+                            "text": "- Sedang"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "0",
+                "box_data": {
+                    "box": [
+                        2124,
+                        2082,
+                        2193,
+                        2184
+                    ],
+                    "text": "0",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                2124,
+                                2082,
+                                2193,
+                                2184
+                            ],
+                            "text": "0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00036.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00036.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"subtotal price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "40,000",
+                "box_data": {
+                    "box": [
+                        1836,
+                        2277,
+                        2182,
+                        2394
+                    ],
+                    "text": "40,000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                1836,
+                                2277,
+                                2182,
+                                2394
+                            ],
+                            "text": "40,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00037.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00037.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Popcorn Salt (S)",
+                "box_data": {
+                    "box": [
+                        113,
+                        470,
+                        302,
+                        501
+                    ],
+                    "text": "Popcorn Salt (S)",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                113,
+                                470,
+                                204,
+                                501
+                            ],
+                            "text": "Popcorn"
+                        },
+                        {
+                            "box": [
+                                208,
+                                474,
+                                260,
+                                500
+                            ],
+                            "text": "Salt"
+                        },
+                        {
+                            "box": [
+                                270,
+                                476,
+                                302,
+                                500
+                            ],
+                            "text": "(S)"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00037.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00037.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        70,
+                        471,
+                        83,
+                        496
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                70,
+                                471,
+                                83,
+                                496
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00037.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00037.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "20.000",
+                "box_data": {
+                    "box": [
+                        461,
+                        480,
+                        538,
+                        511
+                    ],
+                    "text": "20.000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                461,
+                                480,
+                                538,
+                                511
+                            ],
+                            "text": "20.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00038.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00038.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"subtotal price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "561,800",
+                "box_data": {
+                    "box": [
+                        1423,
+                        2729,
+                        1746,
+                        2820
+                    ],
+                    "text": "561,800",
+                    "label": "sub_total.subtotal_price",
+                    "words": [
+                        {
+                            "box": [
+                                1423,
+                                2729,
+                                1746,
+                                2820
+                            ],
+                            "text": "561,800"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00042.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00042.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        316,
+                        1339,
+                        343,
+                        1390
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                316,
+                                1339,
+                                343,
+                                1390
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00042.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00042.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Chicken HCC. 1Pcs",
+                "box_data": {
+                    "box": [
+                        435,
+                        1339,
+                        853,
+                        1394
+                    ],
+                    "text": "Chicken HCC. 1Pcs",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                435,
+                                1339,
+                                622,
+                                1390
+                            ],
+                            "text": "Chicken"
+                        },
+                        {
+                            "box": [
+                                629,
+                                1343,
+                                731,
+                                1394
+                            ],
+                            "text": "HCC."
+                        },
+                        {
+                            "box": [
+                                748,
+                                1343,
+                                853,
+                                1394
+                            ],
+                            "text": "1Pcs"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00042.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00042.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "15.000",
+                "box_data": {
+                    "box": [
+                        1098,
+                        1336,
+                        1251,
+                        1390
+                    ],
+                    "text": "15.000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                1098,
+                                1336,
+                                1251,
+                                1390
+                            ],
+                            "text": "15.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00043.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00043.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Cheese Tart",
+                "box_data": {
+                    "box": [
+                        836,
+                        2329,
+                        1126,
+                        2393
+                    ],
+                    "text": "Cheese Tart",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                836,
+                                2333,
+                                1002,
+                                2393
+                            ],
+                            "text": "Cheese"
+                        },
+                        {
+                            "box": [
+                                1015,
+                                2329,
+                                1126,
+                                2389
+                            ],
+                            "text": "Tart"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00043.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00043.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "165000.00",
+                "box_data": {
+                    "box": [
+                        1446,
+                        2330,
+                        1683,
+                        2407
+                    ],
+                    "text": "165000.00",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                1446,
+                                2330,
+                                1683,
+                                2407
+                            ],
+                            "text": "165000.00"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00044.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00044.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        102,
+                        711,
+                        120,
+                        751
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                102,
+                                711,
+                                120,
+                                751
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00044.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00044.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Combo 1",
+                "box_data": {
+                    "box": [
+                        160,
+                        710,
+                        276,
+                        751
+                    ],
+                    "text": "Combo 1",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                160,
+                                710,
+                                248,
+                                751
+                            ],
+                            "text": "Combo"
+                        },
+                        {
+                            "box": [
+                                258,
+                                714,
+                                276,
+                                749
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00044.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00044.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "30.000",
+                "box_data": {
+                    "box": [
+                        633,
+                        709,
+                        733,
+                        746
+                    ],
+                    "text": "30.000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                633,
+                                709,
+                                733,
+                                746
+                            ],
+                            "text": "30.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00048.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00048.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1X",
+                "box_data": {
+                    "box": [
+                        144,
+                        350,
+                        172,
+                        378
+                    ],
+                    "text": "1X",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                144,
+                                350,
+                                172,
+                                378
+                            ],
+                            "text": "1X"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00048.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00048.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "S-Hazelnut KOI Cafe",
+                "box_data": {
+                    "box": [
+                        179,
+                        351,
+                        430,
+                        383
+                    ],
+                    "text": "S-Hazelnut KOI Cafe",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                179,
+                                351,
+                                316,
+                                383
+                            ],
+                            "text": "S-Hazelnut"
+                        },
+                        {
+                            "box": [
+                                324,
+                                354,
+                                366,
+                                382
+                            ],
+                            "text": "KOI"
+                        },
+                        {
+                            "box": [
+                                376,
+                                356,
+                                430,
+                                382
+                            ],
+                            "text": "Cafe"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00048.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00048.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "25,000",
+                "box_data": {
+                    "box": [
+                        578,
+                        344,
+                        664,
+                        379
+                    ],
+                    "text": "25,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                578,
+                                344,
+                                664,
+                                379
+                            ],
+                            "text": "25,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00048.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00048.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "@25,000",
+                "box_data": {
+                    "box": [
+                        440,
+                        352,
+                        534,
+                        382
+                    ],
+                    "text": "@25,000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                440,
+                                352,
+                                534,
+                                382
+                            ],
+                            "text": "@25,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00050.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00050.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        38,
+                        688,
+                        58,
+                        720
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                38,
+                                688,
+                                58,
+                                720
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00050.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00050.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Superice Cauburry",
+                "box_data": {
+                    "box": [
+                        91,
+                        680,
+                        415,
+                        725
+                    ],
+                    "text": "Superice Cauburry",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                91,
+                                680,
+                                248,
+                                725
+                            ],
+                            "text": "Superice"
+                        },
+                        {
+                            "box": [
+                                260,
+                                683,
+                                415,
+                                724
+                            ],
+                            "text": "Cauburry"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00050.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00050.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "17,727",
+                "box_data": {
+                    "box": [
+                        657,
+                        680,
+                        769,
+                        719
+                    ],
+                    "text": "17,727",
+                    "label": "sub_total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                657,
+                                680,
+                                769,
+                                719
+                            ],
+                            "text": "17,727"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00051.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00051.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"subtotal price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "303,646",
+                "box_data": {
+                    "box": [
+                        489,
+                        877,
+                        569,
+                        904
+                    ],
+                    "text": "303,646",
+                    "label": "sub_total.subtotal_price",
+                    "words": [
+                        {
+                            "box": [
+                                489,
+                                877,
+                                569,
+                                904
+                            ],
+                            "text": "303,646"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00053.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00053.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "4",
+                "box_data": {
+                    "box": [
+                        174,
+                        984,
+                        198,
+                        1030
+                    ],
+                    "text": "4",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                174,
+                                984,
+                                198,
+                                1030
+                            ],
+                            "text": "4"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00054.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00054.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "KACANG MERAH",
+                "box_data": {
+                    "box": [
+                        211,
+                        746,
+                        406,
+                        786
+                    ],
+                    "text": "KACANG MERAH",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                211,
+                                748,
+                                312,
+                                786
+                            ],
+                            "text": "KACANG"
+                        },
+                        {
+                            "box": [
+                                322,
+                                746,
+                                406,
+                                780
+                            ],
+                            "text": "MERAH"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00054.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00054.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "10,000",
+                "box_data": {
+                    "box": [
+                        616,
+                        738,
+                        708,
+                        772
+                    ],
+                    "text": "10,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                616,
+                                738,
+                                708,
+                                772
+                            ],
+                            "text": "10,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00056.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00056.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "AIR MINERAL",
+                "box_data": {
+                    "box": [
+                        250,
+                        1046,
+                        562,
+                        1092
+                    ],
+                    "text": "AIR MINERAL",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                250,
+                                1051,
+                                338,
+                                1092
+                            ],
+                            "text": "AIR"
+                        },
+                        {
+                            "box": [
+                                363,
+                                1046,
+                                562,
+                                1089
+                            ],
+                            "text": "MINERAL"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00056.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00056.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "8,181",
+                "box_data": {
+                    "box": [
+                        787,
+                        1042,
+                        928,
+                        1084
+                    ],
+                    "text": "8,181",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                787,
+                                1042,
+                                928,
+                                1084
+                            ],
+                            "text": "8,181"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00058.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00058.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        357,
+                        1564,
+                        394,
+                        1615
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                357,
+                                1564,
+                                394,
+                                1615
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00058.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00058.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "PHO BO TAI",
+                "box_data": {
+                    "box": [
+                        465,
+                        1553,
+                        748,
+                        1611
+                    ],
+                    "text": "PHO BO TAI",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                465,
+                                1557,
+                                561,
+                                1611
+                            ],
+                            "text": "PHO"
+                        },
+                        {
+                            "box": [
+                                574,
+                                1557,
+                                639,
+                                1611
+                            ],
+                            "text": "BO"
+                        },
+                        {
+                            "box": [
+                                656,
+                                1553,
+                                748,
+                                1611
+                            ],
+                            "text": "TAI"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00058.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00058.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "55,000",
+                "box_data": {
+                    "box": [
+                        1159,
+                        1547,
+                        1332,
+                        1608
+                    ],
+                    "text": "55,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                1159,
+                                1547,
+                                1332,
+                                1608
+                            ],
+                            "text": "55,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00060.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00060.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"amount of price paid in emoney, point\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "26.250",
+                "box_data": {
+                    "box": [
+                        549,
+                        889,
+                        651,
+                        926
+                    ],
+                    "text": "26.250",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                549,
+                                889,
+                                651,
+                                926
+                            ],
+                            "text": "26.250"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00063.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00063.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "0",
+                "box_data": {
+                    "box": [
+                        529,
+                        888,
+                        551,
+                        920
+                    ],
+                    "text": "0",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                529,
+                                888,
+                                551,
+                                920
+                            ],
+                            "text": "0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00064.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00064.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "SINGLE SCOOP",
+                "box_data": {
+                    "box": [
+                        152,
+                        930,
+                        522,
+                        1004
+                    ],
+                    "text": "SINGLE SCOOP",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                152,
+                                930,
+                                344,
+                                1004
+                            ],
+                            "text": "SINGLE"
+                        },
+                        {
+                            "box": [
+                                362,
+                                930,
+                                522,
+                                1004
+                            ],
+                            "text": "SCOOP"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00064.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00064.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "16.000",
+                "box_data": {
+                    "box": [
+                        597,
+                        927,
+                        784,
+                        1001
+                    ],
+                    "text": "16.000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                597,
+                                927,
+                                784,
+                                1001
+                            ],
+                            "text": "16.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00065.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00065.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Bubur Polos + Telur",
+                "box_data": {
+                    "box": [
+                        149,
+                        818,
+                        564,
+                        874
+                    ],
+                    "text": "Bubur Polos + Telur",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                149,
+                                818,
+                                268,
+                                868
+                            ],
+                            "text": "Bubur"
+                        },
+                        {
+                            "box": [
+                                281,
+                                819,
+                                394,
+                                872
+                            ],
+                            "text": "Polos"
+                        },
+                        {
+                            "box": [
+                                408,
+                                831,
+                                434,
+                                866
+                            ],
+                            "text": "+"
+                        },
+                        {
+                            "box": [
+                                447,
+                                818,
+                                564,
+                                874
+                            ],
+                            "text": "Telur"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00065.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00065.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "13.000",
+                "box_data": {
+                    "box": [
+                        409,
+                        872,
+                        539,
+                        925
+                    ],
+                    "text": "13.000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                409,
+                                872,
+                                539,
+                                925
+                            ],
+                            "text": "13.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00065.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00065.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "13.000",
+                "box_data": {
+                    "box": [
+                        708,
+                        874,
+                        839,
+                        927
+                    ],
+                    "text": "13.000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                708,
+                                874,
+                                839,
+                                927
+                            ],
+                            "text": "13.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00067.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00067.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"identification # of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "2005-",
+                "box_data": {
+                    "box": [
+                        83,
+                        414,
+                        119,
+                        432
+                    ],
+                    "text": "2005-",
+                    "label": "menu.num",
+                    "words": [
+                        {
+                            "box": [
+                                83,
+                                414,
+                                119,
+                                432
+                            ],
+                            "text": "2005-"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00067.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00067.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "CHEESE JOHN",
+                "box_data": {
+                    "box": [
+                        117,
+                        412,
+                        196,
+                        429
+                    ],
+                    "text": "CHEESE JOHN",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                117,
+                                414,
+                                159,
+                                429
+                            ],
+                            "text": "CHEESE"
+                        },
+                        {
+                            "box": [
+                                164,
+                                412,
+                                196,
+                                428
+                            ],
+                            "text": "JOHN"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00067.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00067.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "9.500,00",
+                "box_data": {
+                    "box": [
+                        137,
+                        429,
+                        194,
+                        446
+                    ],
+                    "text": "9.500,00",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                137,
+                                429,
+                                194,
+                                446
+                            ],
+                            "text": "9.500,00"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00067.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00067.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "x1",
+                "box_data": {
+                    "box": [
+                        214,
+                        427,
+                        234,
+                        442
+                    ],
+                    "text": "x1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                214,
+                                427,
+                                234,
+                                442
+                            ],
+                            "text": "x1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00067.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00067.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "9.500,00",
+                "box_data": {
+                    "box": [
+                        282,
+                        421,
+                        342,
+                        439
+                    ],
+                    "text": "9.500,00",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                282,
+                                421,
+                                342,
+                                439
+                            ],
+                            "text": "9.500,00"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00068.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00068.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "ICED TT",
+                "box_data": {
+                    "box": [
+                        45,
+                        574,
+                        182,
+                        617
+                    ],
+                    "text": "ICED TT",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                45,
+                                578,
+                                128,
+                                617
+                            ],
+                            "text": "ICED"
+                        },
+                        {
+                            "box": [
+                                144,
+                                574,
+                                182,
+                                604
+                            ],
+                            "text": "TT"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00068.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00068.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "20,000",
+                "box_data": {
+                    "box": [
+                        360,
+                        563,
+                        488,
+                        605
+                    ],
+                    "text": "20,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                360,
+                                563,
+                                488,
+                                605
+                            ],
+                            "text": "20,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00071.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00071.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Cuka Apel Tetes",
+                "box_data": {
+                    "box": [
+                        11,
+                        336,
+                        189,
+                        365
+                    ],
+                    "text": "Cuka Apel Tetes",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                11,
+                                336,
+                                77,
+                                365
+                            ],
+                            "text": "Cuka"
+                        },
+                        {
+                            "box": [
+                                73,
+                                339,
+                                189,
+                                365
+                            ],
+                            "text": "Apel Tetes"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00071.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00071.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        194,
+                        346,
+                        206,
+                        366
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                194,
+                                346,
+                                206,
+                                366
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00071.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00071.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "198000",
+                "box_data": {
+                    "box": [
+                        14,
+                        366,
+                        98,
+                        392
+                    ],
+                    "text": "198000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                14,
+                                366,
+                                98,
+                                392
+                            ],
+                            "text": "198000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00071.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00071.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "198000",
+                "box_data": {
+                    "box": [
+                        259,
+                        357,
+                        337,
+                        380
+                    ],
+                    "text": "198000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                259,
+                                357,
+                                337,
+                                380
+                            ],
+                            "text": "198000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00072.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00072.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        52,
+                        742,
+                        74,
+                        774
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                52,
+                                742,
+                                74,
+                                774
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00072.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00072.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Choco Devil",
+                "box_data": {
+                    "box": [
+                        112,
+                        734,
+                        322,
+                        772
+                    ],
+                    "text": "Choco Devil",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                112,
+                                738,
+                                212,
+                                772
+                            ],
+                            "text": "Choco"
+                        },
+                        {
+                            "box": [
+                                228,
+                                734,
+                                322,
+                                770
+                            ],
+                            "text": "Devil"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00072.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00072.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "15,909",
+                "box_data": {
+                    "box": [
+                        660,
+                        741,
+                        779,
+                        789
+                    ],
+                    "text": "15,909",
+                    "label": "sub_total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                660,
+                                741,
+                                779,
+                                789
+                            ],
+                            "text": "15,909"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00076.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00076.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "2x",
+                "box_data": {
+                    "box": [
+                        168,
+                        670,
+                        240,
+                        718
+                    ],
+                    "text": "2x",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                168,
+                                670,
+                                240,
+                                718
+                            ],
+                            "text": "2x"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00076.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00076.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "6000",
+                "box_data": {
+                    "box": [
+                        262,
+                        666,
+                        362,
+                        716
+                    ],
+                    "text": "6000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                262,
+                                666,
+                                362,
+                                716
+                            ],
+                            "text": "6000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00077.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00077.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "TRIPPLE CHEESE",
+                "box_data": {
+                    "box": [
+                        148,
+                        1407,
+                        986,
+                        1516
+                    ],
+                    "text": "TRIPPLE CHEESE",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                148,
+                                1414,
+                                559,
+                                1516
+                            ],
+                            "text": "TRIPPLE"
+                        },
+                        {
+                            "box": [
+                                579,
+                                1407,
+                                986,
+                                1510
+                            ],
+                            "text": "CHEESE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00077.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00077.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "17,000",
+                "box_data": {
+                    "box": [
+                        529,
+                        1557,
+                        832,
+                        1655
+                    ],
+                    "text": "17,000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                529,
+                                1557,
+                                832,
+                                1655
+                            ],
+                            "text": "17,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00077.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00077.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "17,000",
+                "box_data": {
+                    "box": [
+                        1955,
+                        1513,
+                        2283,
+                        1619
+                    ],
+                    "text": "17,000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                1955,
+                                1513,
+                                2283,
+                                1619
+                            ],
+                            "text": "17,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        631,
+                        1894,
+                        665,
+                        1954
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                631,
+                                1894,
+                                665,
+                                1954
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Lemon Tea (L)",
+                "box_data": {
+                    "box": [
+                        733,
+                        1881,
+                        1088,
+                        1949
+                    ],
+                    "text": "Lemon Tea (L)",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                733,
+                                1890,
+                                883,
+                                1949
+                            ],
+                            "text": "Lemon"
+                        },
+                        {
+                            "box": [
+                                896,
+                                1890,
+                                989,
+                                1949
+                            ],
+                            "text": "Tea"
+                        },
+                        {
+                            "box": [
+                                1011,
+                                1881,
+                                1088,
+                                1949
+                            ],
+                            "text": "(L)"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "25.000",
+                "box_data": {
+                    "box": [
+                        1540,
+                        1868,
+                        1719,
+                        1932
+                    ],
+                    "text": "25.000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                1540,
+                                1868,
+                                1719,
+                                1932
+                            ],
+                            "text": "25.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        636,
+                        1963,
+                        664,
+                        2020
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                636,
+                                1963,
+                                664,
+                                2020
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Extra Jelly Lychee",
+                "box_data": {
+                    "box": [
+                        733,
+                        1949,
+                        1233,
+                        2018
+                    ],
+                    "text": "Extra Jelly Lychee",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                733,
+                                1958,
+                                883,
+                                2018
+                            ],
+                            "text": "Extra"
+                        },
+                        {
+                            "box": [
+                                900,
+                                1954,
+                                1045,
+                                2018
+                            ],
+                            "text": "Jelly"
+                        },
+                        {
+                            "box": [
+                                1058,
+                                1949,
+                                1233,
+                                2013
+                            ],
+                            "text": "Lychee"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00078.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00078.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "5.000",
+                "box_data": {
+                    "box": [
+                        1568,
+                        1932,
+                        1721,
+                        2004
+                    ],
+                    "text": "5.000",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                1568,
+                                1932,
+                                1721,
+                                2004
+                            ],
+                            "text": "5.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00079.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00079.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "22.000",
+                "box_data": {
+                    "box": [
+                        395,
+                        625,
+                        480,
+                        656
+                    ],
+                    "text": "22.000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                395,
+                                625,
+                                480,
+                                656
+                            ],
+                            "text": "22.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00079.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00079.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"amount of price paid in cash\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "22.000",
+                "box_data": {
+                    "box": [
+                        450,
+                        706,
+                        531,
+                        731
+                    ],
+                    "text": "22.000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                450,
+                                706,
+                                531,
+                                731
+                            ],
+                            "text": "22.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00080.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00080.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        65,
+                        350,
+                        76,
+                        369
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                65,
+                                350,
+                                76,
+                                369
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00080.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00080.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Viet Milk Coffee",
+                "box_data": {
+                    "box": [
+                        78,
+                        345,
+                        193,
+                        368
+                    ],
+                    "text": "Viet Milk Coffee",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                78,
+                                349,
+                                111,
+                                368
+                            ],
+                            "text": "Viet"
+                        },
+                        {
+                            "box": [
+                                112,
+                                347,
+                                145,
+                                367
+                            ],
+                            "text": "Milk"
+                        },
+                        {
+                            "box": [
+                                146,
+                                345,
+                                193,
+                                364
+                            ],
+                            "text": "Coffee"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00080.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00080.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "25,000",
+                "box_data": {
+                    "box": [
+                        339,
+                        334,
+                        385,
+                        355
+                    ],
+                    "text": "25,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                339,
+                                334,
+                                385,
+                                355
+                            ],
+                            "text": "25,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00083.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00083.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        118,
+                        384,
+                        140,
+                        418
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                118,
+                                384,
+                                140,
+                                418
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00083.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00083.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "COOKIES AND CREAM",
+                "box_data": {
+                    "box": [
+                        147,
+                        364,
+                        434,
+                        418
+                    ],
+                    "text": "COOKIES AND CREAM",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                147,
+                                376,
+                                266,
+                                418
+                            ],
+                            "text": "COOKIES"
+                        },
+                        {
+                            "box": [
+                                272,
+                                370,
+                                330,
+                                408
+                            ],
+                            "text": "AND"
+                        },
+                        {
+                            "box": [
+                                338,
+                                364,
+                                434,
+                                404
+                            ],
+                            "text": "CREAM"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00083.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00083.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "20,909",
+                "box_data": {
+                    "box": [
+                        662,
+                        360,
+                        784,
+                        408
+                    ],
+                    "text": "20,909",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                662,
+                                360,
+                                784,
+                                408
+                            ],
+                            "text": "20,909"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00083.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00083.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        106,
+                        547,
+                        126,
+                        590
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                106,
+                                547,
+                                126,
+                                590
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00085.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00085.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "14",
+                "box_data": {
+                    "box": [
+                        664,
+                        1842,
+                        742,
+                        1943
+                    ],
+                    "text": "14",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                664,
+                                1842,
+                                742,
+                                1943
+                            ],
+                            "text": "14"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00087.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00087.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        114,
+                        732,
+                        132,
+                        762
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                114,
+                                732,
+                                132,
+                                762
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00087.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00087.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "PHOTAI CHIN",
+                "box_data": {
+                    "box": [
+                        151,
+                        700,
+                        398,
+                        760
+                    ],
+                    "text": "PHOTAI CHIN",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                151,
+                                709,
+                                306,
+                                760
+                            ],
+                            "text": "PHOTAI"
+                        },
+                        {
+                            "box": [
+                                307,
+                                700,
+                                398,
+                                741
+                            ],
+                            "text": "CHIN"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00087.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00087.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "36,500",
+                "box_data": {
+                    "box": [
+                        570,
+                        678,
+                        687,
+                        721
+                    ],
+                    "text": "36,500",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                570,
+                                678,
+                                687,
+                                721
+                            ],
+                            "text": "36,500"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        52,
+                        636,
+                        70,
+                        673
+                    ],
+                    "text": "1",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                52,
+                                636,
+                                70,
+                                673
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "XXL Crispy Chicken",
+                "box_data": {
+                    "box": [
+                        128,
+                        631,
+                        493,
+                        685
+                    ],
+                    "text": "XXL Crispy Chicken",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                128,
+                                634,
+                                214,
+                                672
+                            ],
+                            "text": "XXL"
+                        },
+                        {
+                            "box": [
+                                218,
+                                631,
+                                341,
+                                685
+                            ],
+                            "text": "Crispy"
+                        },
+                        {
+                            "box": [
+                                347,
+                                637,
+                                493,
+                                680
+                            ],
+                            "text": "Chicken"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "40,000",
+                "box_data": {
+                    "box": [
+                        661,
+                        648,
+                        794,
+                        690
+                    ],
+                    "text": "40,000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                661,
+                                648,
+                                794,
+                                690
+                            ],
+                            "text": "40,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        52,
+                        677,
+                        70,
+                        710
+                    ],
+                    "text": "1",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                52,
+                                677,
+                                70,
+                                710
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "Pedas sedikit",
+                "box_data": {
+                    "box": [
+                        153,
+                        676,
+                        400,
+                        718
+                    ],
+                    "text": "Pedas sedikit",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                153,
+                                676,
+                                272,
+                                716
+                            ],
+                            "text": "Pedas"
+                        },
+                        {
+                            "box": [
+                                279,
+                                680,
+                                400,
+                                718
+                            ],
+                            "text": "sedikit"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "0",
+                "box_data": {
+                    "box": [
+                        766,
+                        696,
+                        794,
+                        734
+                    ],
+                    "text": "0",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                766,
+                                696,
+                                794,
+                                734
+                            ],
+                            "text": "0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00089.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00089.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"subtotal price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "40,000",
+                "box_data": {
+                    "box": [
+                        655,
+                        767,
+                        785,
+                        808
+                    ],
+                    "text": "40,000",
+                    "label": "total.total_price",
+                    "words": [
+                        {
+                            "box": [
+                                655,
+                                767,
+                                785,
+                                808
+                            ],
+                            "text": "40,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00090.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00090.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        291,
+                        712,
+                        306,
+                        748
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                291,
+                                712,
+                                306,
+                                748
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00090.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00090.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "CIRENG PANDAWA",
+                "box_data": {
+                    "box": [
+                        323,
+                        708,
+                        618,
+                        743
+                    ],
+                    "text": "CIRENG PANDAWA",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                323,
+                                710,
+                                446,
+                                743
+                            ],
+                            "text": "CIRENG"
+                        },
+                        {
+                            "box": [
+                                458,
+                                708,
+                                618,
+                                742
+                            ],
+                            "text": "PANDAWA"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00090.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00090.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "26,818",
+                "box_data": {
+                    "box": [
+                        797,
+                        707,
+                        907,
+                        745
+                    ],
+                    "text": "26,818",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                797,
+                                707,
+                                907,
+                                745
+                            ],
+                            "text": "26,818"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"identification # of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "901016",
+                "box_data": {
+                    "box": [
+                        76,
+                        320,
+                        136,
+                        344
+                    ],
+                    "text": "901016",
+                    "label": "menu.num",
+                    "words": [
+                        {
+                            "box": [
+                                76,
+                                320,
+                                136,
+                                344
+                            ],
+                            "text": "901016"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "- TICKET CP",
+                "box_data": {
+                    "box": [
+                        206,
+                        316,
+                        306,
+                        342
+                    ],
+                    "text": "- TICKET CP",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                206,
+                                316,
+                                278,
+                                342
+                            ],
+                            "text": "- TICKET"
+                        },
+                        {
+                            "box": [
+                                280,
+                                316,
+                                306,
+                                340
+                            ],
+                            "text": "CP"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "4",
+                "box_data": {
+                    "box": [
+                        134,
+                        354,
+                        146,
+                        372
+                    ],
+                    "text": "4",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                134,
+                                354,
+                                146,
+                                372
+                            ],
+                            "text": "4"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "60.000",
+                "box_data": {
+                    "box": [
+                        244,
+                        348,
+                        308,
+                        372
+                    ],
+                    "text": "60.000",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                244,
+                                348,
+                                308,
+                                372
+                            ],
+                            "text": "60.000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "240,000",
+                "box_data": {
+                    "box": [
+                        406,
+                        344,
+                        480,
+                        370
+                    ],
+                    "text": "240,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                406,
+                                344,
+                                480,
+                                370
+                            ],
+                            "text": "240,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00092.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00092.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "(Qty=4.00)",
+                "box_data": {
+                    "box": [
+                        192,
+                        476,
+                        380,
+                        500
+                    ],
+                    "text": "(Qty=4.00)",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                192,
+                                476,
+                                380,
+                                500
+                            ],
+                            "text": "(Qty=4.00)"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00093.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00093.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "THAI ICED TEA (L)",
+                "box_data": {
+                    "box": [
+                        142,
+                        688,
+                        392,
+                        726
+                    ],
+                    "text": "THAI ICED TEA (L)",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                142,
+                                696,
+                                206,
+                                726
+                            ],
+                            "text": "THAI"
+                        },
+                        {
+                            "box": [
+                                218,
+                                692,
+                                280,
+                                722
+                            ],
+                            "text": "ICED"
+                        },
+                        {
+                            "box": [
+                                290,
+                                690,
+                                338,
+                                720
+                            ],
+                            "text": "TEA"
+                        },
+                        {
+                            "box": [
+                                348,
+                                688,
+                                392,
+                                724
+                            ],
+                            "text": "(L)"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00093.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00093.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"unit price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "16,363",
+                "box_data": {
+                    "box": [
+                        403,
+                        722,
+                        495,
+                        760
+                    ],
+                    "text": "16,363",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                403,
+                                722,
+                                495,
+                                760
+                            ],
+                            "text": "16,363"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00093.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00093.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "16,363",
+                "box_data": {
+                    "box": [
+                        610,
+                        719,
+                        695,
+                        751
+                    ],
+                    "text": "16,363",
+                    "label": "menu.unitprice",
+                    "words": [
+                        {
+                            "box": [
+                                610,
+                                719,
+                                695,
+                                751
+                            ],
+                            "text": "16,363"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        136,
+                        890,
+                        150,
+                        912
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                136,
+                                890,
+                                150,
+                                912
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "BBQ Chicken",
+                "box_data": {
+                    "box": [
+                        182,
+                        882,
+                        334,
+                        910
+                    ],
+                    "text": "BBQ Chicken",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                182,
+                                884,
+                                240,
+                                910
+                            ],
+                            "text": "BBQ"
+                        },
+                        {
+                            "box": [
+                                242,
+                                882,
+                                334,
+                                908
+                            ],
+                            "text": "Chicken"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "41,000",
+                "box_data": {
+                    "box": [
+                        491,
+                        866,
+                        569,
+                        899
+                    ],
+                    "text": "41,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                491,
+                                866,
+                                569,
+                                899
+                            ],
+                            "text": "41,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        136,
+                        912,
+                        150,
+                        936
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                136,
+                                912,
+                                150,
+                                936
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "- Tidak Pedas",
+                "box_data": {
+                    "box": [
+                        182,
+                        906,
+                        334,
+                        934
+                    ],
+                    "text": "- Tidak Pedas",
+                    "label": "menu.sub_nm",
+                    "words": [
+                        {
+                            "box": [
+                                182,
+                                908,
+                                258,
+                                934
+                            ],
+                            "text": "- Tidak"
+                        },
+                        {
+                            "box": [
+                                262,
+                                906,
+                                334,
+                                932
+                            ],
+                            "text": "Pedas"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of submenu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "0",
+                "box_data": {
+                    "box": [
+                        552,
+                        890,
+                        570,
+                        914
+                    ],
+                    "text": "0",
+                    "label": "menu.sub_price",
+                    "words": [
+                        {
+                            "box": [
+                                552,
+                                890,
+                                570,
+                                914
+                            ],
+                            "text": "0"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00096.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00096.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"subtotal price\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "41,000",
+                "box_data": {
+                    "box": [
+                        498,
+                        940,
+                        571,
+                        963
+                    ],
+                    "text": "41,000",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                498,
+                                940,
+                                571,
+                                963
+                            ],
+                            "text": "41,000"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00097.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00097.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total count of quantit\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "6.00xITEMS",
+                "box_data": {
+                    "box": [
+                        176,
+                        400,
+                        302,
+                        430
+                    ],
+                    "text": "6.00xITEMS",
+                    "label": "total.menuqty_cnt",
+                    "words": [
+                        {
+                            "box": [
+                                176,
+                                400,
+                                302,
+                                430
+                            ],
+                            "text": "6.00xITEMS"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00099.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00099.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"quantity of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "1",
+                "box_data": {
+                    "box": [
+                        226,
+                        502,
+                        238,
+                        520
+                    ],
+                    "text": "1",
+                    "label": "menu.cnt",
+                    "words": [
+                        {
+                            "box": [
+                                226,
+                                502,
+                                238,
+                                520
+                            ],
+                            "text": "1"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00099.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00099.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"name of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "FL-Xmas 30 Off",
+                "box_data": {
+                    "box": [
+                        244,
+                        498,
+                        376,
+                        529
+                    ],
+                    "text": "FL-Xmas 30 Off",
+                    "label": "menu.nm",
+                    "words": [
+                        {
+                            "box": [
+                                244,
+                                498,
+                                325,
+                                526
+                            ],
+                            "text": "FL-Xmas"
+                        },
+                        {
+                            "box": [
+                                321,
+                                503,
+                                376,
+                                529
+                            ],
+                            "text": "30 Off"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "image_path": "archive/images/CORD/receipt_00099.png",
+        "ocr_path": "archive/ocr_results/CORD/receipt_00099.json",
+        "conversations": [
+            {
+                "from": "instruction",
+                "value": "What is the \"total price of menu\" in the given document?"
+            },
+            {
+                "from": "response",
+                "value": "68,180",
+                "box_data": {
+                    "box": [
+                        450,
+                        506,
+                        508,
+                        528
+                    ],
+                    "text": "68,180",
+                    "label": "menu.price",
+                    "words": [
+                        {
+                            "box": [
+                                450,
+                                506,
+                                508,
+                                528
+                            ],
+                            "text": "68,180"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
