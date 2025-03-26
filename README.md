@@ -24,11 +24,27 @@ in colored fonts, with the corresponding answers highlighted by matching colored
 
 ## Key Features
 
-1. **Interpretability**: Annotates document images with bounding boxes for precise answer localization.
-2. **Flexibility**: Supports OCR-dependent and OCR-free pipelines.
-3. **Efficiency**: Streamlined processing without complex pretraining requirements.
+1. **Interpretability & Trust**: Precise bounding box annotations map each answer to its location, reducing the risk of AI hallucinations.
+2. **Flexibility**: Supports both OCR-free and OCR-dependent pipelines for various document types.
+3. **Efficiency**: Eliminates iterative OCR, lowering token overhead and speeding up processing.
+4. **Robust Performance**: Demonstrates competitive or superior results on benchmark datasets, validated by both Average Normalized Levenshtein Similarity (ANLS) and Intersection over Union (IoU) metrics.
 
 ---
+
+## Architecture
+
+DLaVA operates via a two-stage MLLM pipeline:
+1. **Text Detection & Constructed Image Creation:**
+- A text detection module (e.g., using DB-ResNet-50) identifies text regions and outputs bounding boxes.
+- Cropped text images are rearranged into a “constructed image” with unique bounding box IDs and associated coordinates.
+
+2. **Information Extraction & Localization:**
+- Stage 1: The original document image and a user query are processed by an MLLM (e.g., Pixtral-12B) to generate an initial answer.
+- Stage 2: The constructed image, together with bounding box coordinates and the initial QA pair, is fed back into the MLLM to refine the answer’s spatial localization.
+
+This integrated design bypasses conventional OCR processing, reducing error propagation and computational cost.
+
+--
 
 ## Setup
 
