@@ -1,15 +1,17 @@
 # DLaVA: Document Language and Vision Assistant
 
-A framework for answer localization in Document Visual Question Answering (VQA) with enhanced interpretability and trustworthiness. The system integrates OCR-dependent and OCR-free methods to localize answers precisely within document images.
+DLaVA is a cutting-edge framework for answer localization in Document Visual Question Answering (VQA). It is designed to enhance interpretability, trustworthiness, and efficiency in document understanding by directly linking answers to their spatial locations in images. Leveraging state-of-the-art Multimodal Large Language Models (MLLMs) and an innovative OCR-free “constructed image” approach, DLaVA achieves robust performance while minimizing computational overhead.
 
 ---
 
 ## Overview
 
-DLaVA introduces a novel approach for Document VQA by:
-- Incorporating answer localization to enhance user trust and model interpretability.
-- Supporting both OCR-dependent and OCR-free pipelines.
-- Achieving state-of-the-art (SOTA) performance on Document VQA and Visual Information Extraction (VIE) tasks.
+Document VQA requires not only accurate textual extraction from complex layouts but also precise spatial reasoning to map answers onto document regions. DLaVA addresses these challenges by:
+- Zero-Shot Answer Localization: A training-free, zero-shot pipeline that directly localizes answers.
+- Constructed Image Strategy: Detected text regions are reorganized into a single image, where each cropped region is tagged with a unique bounding box ID, preserving spatial context.
+- Dual Pipeline Support: Offers both OCR-free and OCR-dependent processing paths to suit different application needs.
+- Enhanced Interpretability & Trustworthiness: Outputs include bounding box annotations that allow users to verify responses directly against the document.
+- State-of-the-Art Performance: Achieves high accuracy on benchmarks such as DocVQA, STE-VQA, FUNSD, CORD, and SROIE, with evaluation based on both textual (ANLS) and spatial (IoU) metrics.
 
 ![Figure ](images/figure1.png)  
 *Figure 1: Examples of visual information extraction on images from the CORD dataset: questions are displayed at the top
@@ -134,42 +136,26 @@ python ocr-dependent/mAP@IOU.py
 
 ---
 
+## Metrics
+- **Textual Accuracy**: Average Normalized Levenshtein Similarity (ANLS) assesses text quality.
+- **Spatial Alignment**: Intersection over Union (IoU) across thresholds (mAP@IoU[0.50:0.95]) evaluates the precision of bounding box localization.
+
+
+
+---
+
 ## Performance
 
-###
+### Results (ANLS Metric)
 
 ![Table 1](images/table1.png)  
 *Table 1: Comparison of DLaVA with SoTA models on benchmark datasets using ANLS evaluation metric*
 
-### OCR-Free Results (ANLS Metric)
+### Results (IoU Metric)
 
-![Table 2](images/table2.png)  
-*Table 2: OCR-Free Results (ANLS Metric)*
+![Table 2](images/table4.png)  
+*Table 2: Comparison of DLaVA and its ablation variants using IoU (mAP@IOU[0.50:0.95]) metric on Document VQA and QA for VIE*
 
----
 
-## Supported Datasets
-
-The DLaVA framework supports and has been tested on the following datasets:
-
-1. **CORD**: Consolidated receipt dataset for structured information extraction.
-2. **FUNSD**: Form Understanding in Noisy Scanned Documents.
-3. **SROIE**: Scanned Receipt OCR and Information Extraction dataset.
-4. **DocVQA**: Dataset for Document Visual Question Answering.
-
----
-
-## Limitations and Future Work
-
-### Limitations
-
-- **IoU Challenges**: Low IoU scores for complex document layouts with overlapping elements.
-- **Ambiguities**: Difficulty in resolving repeated values across fields, such as totals in receipts.
-
-### Future Work
-
-- **Fine-Tuning**: Improve bounding box annotations using techniques like LoRA.
-- **Enhanced Reasoning**: Add spatial reasoning with positional priors and cross-field dependencies.
-- **Extension**: Expand support to handle charts and graphical elements in documents.
 
 
