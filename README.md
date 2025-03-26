@@ -44,7 +44,27 @@ DLaVA operates via a two-stage MLLM pipeline:
 
 This integrated design bypasses conventional OCR processing, reducing error propagation and computational cost.
 
---
+---
+
+## Metrics
+- **Textual Accuracy**: Average Normalized Levenshtein Similarity (ANLS) assesses text quality.
+- **Spatial Alignment**: Intersection over Union (IoU) across thresholds (mAP@IoU[0.50:0.95]) evaluates the precision of bounding box localization.
+
+---
+
+## Performance
+
+### Results (ANLS Metric)
+
+![Table 1](images/table1.png)  
+*Table 1: Comparison of DLaVA with SoTA models on benchmark datasets using ANLS evaluation metric*
+
+### Results (IoU Metric)
+
+![Table 2](images/table4.png)  
+*Table 2: Comparison of DLaVA and its ablation variants using IoU (mAP@IOU[0.50:0.95]) metric on Document VQA and QA for VIE*
+
+---
 
 ## Setup
 
@@ -150,27 +170,7 @@ or
 python ocr-dependent/mAP@IOU.py
 ```
 
----
 
-## Metrics
-- **Textual Accuracy**: Average Normalized Levenshtein Similarity (ANLS) assesses text quality.
-- **Spatial Alignment**: Intersection over Union (IoU) across thresholds (mAP@IoU[0.50:0.95]) evaluates the precision of bounding box localization.
-
-
-
----
-
-## Performance
-
-### Results (ANLS Metric)
-
-![Table 1](images/table1.png)  
-*Table 1: Comparison of DLaVA with SoTA models on benchmark datasets using ANLS evaluation metric*
-
-### Results (IoU Metric)
-
-![Table 2](images/table4.png)  
-*Table 2: Comparison of DLaVA and its ablation variants using IoU (mAP@IOU[0.50:0.95]) metric on Document VQA and QA for VIE*
 
 
 
