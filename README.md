@@ -12,10 +12,11 @@ DLaVA introduces a novel approach for Document VQA by:
 - Achieving state-of-the-art (SOTA) performance on Document VQA and Visual Information Extraction (VIE) tasks.
 
 ![Figure ](images/figure1.png)  
-*Figure 1: Examples of Answer Annotations in CORD Dataset*
+*Figure 1: Examples of visual information extraction on images from the CORD dataset: questions are displayed at the top
+in colored fonts, with the corresponding answers highlighted by matching colored boundary boxes.*
 
 ![Figure 2](images/figure2.png)  
-*Figure 2: DLaVA Model Architecture for OCR-Dependent and OCR-Free Approaches*
+*Figure 2: DLaVA Model Architecture. This diagram illustrates our final single-pipeline design. In the text detection step, detected text regions generate two outputs: a series of cropped images that are reorganized into a “constructed image” with unique bounding box identifiers (e.g., BB1, BB2, BB3, etc.) and their corresponding bounding box coordinates (e.g., BB1 [10, 10, 60, 30], BB2 [70, 10, 140, 30], etc.). The approach then leverages a two-stage MLLM pipeline. In Stage 1, the original image and the user’s question are provided to the MLLM to derive an initial textual answer. In Stage 2, the constructed image—comprising all cropped images with their BB IDs—along with the recorded bounding box coordinates and the initial QA pair are fed back into the MLLM to refine spatial localization. This integrated design eliminates the need for iterative OCR and reduces computational overhead, culminating in a final annotation module that delivers the final answer along with precise bounding box annotations.* 
 
 ---
 
@@ -135,10 +136,10 @@ python ocr-dependent/mAP@IOU.py
 
 ## Performance
 
-### OCR-Dependent Results (ANLS Metric)
+###
 
 ![Table 1](images/table1.png)  
-*Table 1: OCR-Dependent Results (ANLS Metric)*
+*Table 1: Comparison of DLaVA with SoTA models on benchmark datasets using ANLS evaluation metric*
 
 ### OCR-Free Results (ANLS Metric)
 
